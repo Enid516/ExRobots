@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:paddingBottom="40dp"
+        android:textSize="20sp" />
+    <EditText
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/understander_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top|left"
+        android:paddingBottom="40dp"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/text_understander"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文本语义"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/start_understander"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="语音语义"
+        android:textSize="20sp" />
+</LinearLayout>

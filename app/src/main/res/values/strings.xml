@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExRobots</string>
+    <string name="app_id">592f81a4</string>
+
+    <!--speech-->
+    <string name="text_begin">请开始说话…</string>
+</resources>
